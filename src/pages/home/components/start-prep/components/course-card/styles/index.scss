@@ -1,0 +1,30 @@
+.course-card{
+  width: 165px;
+  height: 165px;
+  box-shadow: 0px 0px 20px #0000001c;
+  background-color: #fff;
+  margin: 6px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  &:hover{
+    transform: scale(1.04);
+    transition: 300ms;
+  }
+  transition: 300ms;
+}
+
+@media screen and (max-width: 960px) {
+  .course-card{
+    width: 120px;
+    height: 120px;
+  }
+}
+@media screen and (max-width: 435px) {
+  .course-card{
+    width: 100%;
+    height: 120px;
+  }
+}
